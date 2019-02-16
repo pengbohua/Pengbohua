@@ -1,0 +1,28 @@
+---
+layout: post
+title:  Dishes for New Year Celebration
+date: 2019-02-04 00:00:00
+comments: true
+---
+It is Chinese new year eve today, so I need to get up early to prepare dishes to celebrate this very special festival. With a big bowl of beef noodles, I started a busy day with my family !
+
+After selected and washed, the fish and shrimps are chopped and pickled with ingredients such as soybean sauce and chilli. Next step, carefully stir fry the food with vegetable oil and braise them for a moment. Basically, if you use tic and toc, the time for a dish is about 20 minutes in average. Here are tomato shrimps, braised fish and Mopo tofu
+
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/tomatoshrimps.png" alt="tomato shrimps">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/fish.png" alt="braised fish">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/mopotofu.png" alt="mopotofu">
+</div>
+
+Of course, we shouldn't forget our main dish, Beijing roast duck. While the raw duck may look a little bit nasty at a glance, it is quite meaty and juicy after well cooked.
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/rawduck.png" alt="raw duck">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/roastduck.png" alt="roastduck">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/duck.png" alt="chopped duck">
+</div>
+<div class="col three caption">
+    Roast duck processing
+</div>
+Just as good as you can imagine, right?
+
+<div id="disqus_thread"></div>

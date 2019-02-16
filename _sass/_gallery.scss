@@ -11,10 +11,23 @@ figcaption {
     background: $theme-color;
 }
 .img_row {
-    height: $img-height;
+    height: auto ;//$img-height
     width: 100%;
     overflow: hidden;
     box-sizing:border-box;
+}
+.img_pro {
+    width: auto;
+    //vertical-align: middle;
+    text-align: center;
+    margin:3px;
+    box-sizing:border-box;
+}
+.img_pro3{
+  @extend .img_pro;
+  //padding: 0px 50px;//notuseful,because this is not a table td
+  width: 200px;
+  height: 200px; 
 }
 .col {
     width: 100%;
@@ -24,7 +37,7 @@ figcaption {
     padding: $img-spacing;
 }
 .one {
-    width:33.33%;
+    width:33%;
 }
 .two {
     width: 66.66%;

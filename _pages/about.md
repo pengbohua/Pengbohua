@@ -1,23 +1,23 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Marvin Peng</strong>
+
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+   No.127 Youyi Road
+   Xi'an, P.R.C
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second-year PhD candidate of the School of Automation at [Northwestern Polytechnical University](http://www.nwpu.edu.cn){:target="\_blank"}. My research interests focus on temporal information processing. Currently, I am looking for a graduate program in England. I have become increasingly interested in self-attention mechanism and visual tracking using attention. I seek creativity across the fields of visual dialogue system, video processing and efficient deep neural networks. I am a student member of IEEE. Feel free to take a look at my papers in [publications page](/BohuaPeng/publications/)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I got my MEng degree at [Shanghai Maritime University](https://www.shmtu.edu.cn/){:target="\_blank"} where I carried out several researches about computer vision measurement and multi-agents controllers. Recently, I have grown a huge interest in end-to-end learning. See my projects at [projects page](/BohuaPeng/projects/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my leisure time, I am a student mentor of on-campus Latin club. My favorite dance is Chachacha!
+As a member of NPU UAV club, I also like playing around with robotics very much.

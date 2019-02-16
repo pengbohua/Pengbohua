@@ -1,55 +1,37 @@
 ---
 layout: page
-title: Project 2
-description: a project with a background image
-img: /assets/img/2.jpg
+title: Monocular Vision Double-container Controller
+img: /assets/img/project2.png
+comments: true
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Traditional detection strategies have the dead-zone problem with mechanical sensors. Therefore, in this project, an improved Randomized Hough transform for circle detection using vertical gradients, was proposed to efficiently detect moving circular targets in a complex background with high accuracy, and an interactive program with C++ was designed.
 
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+<div class="img_pro">
+    <img src="{{ site.baseurl }}/assets/img/overheadcranemodel.png" >
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
+    Automatic overhead crane system model
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+The pipeline for the algorithm includes:
+Cropped out an interest area including circular target according to depth map, followed by filtering and edge detection. Then the algorithm calculated the center of circle with module mentioned above and finally scaled the position to the real world. Compared with cv.HoughCircles, the runtime decline from 0.037s to 0.018s.
 
+<div class="img_pro">
+    <img align="center" src="{{ site.baseurl }}/assets/img/monocularcamera.png" >
 
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Position estimation with monocular camera
 </div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
+<br>
+<div class="img_pro">
+    <img  src="{{ site.baseurl }}/assets/img/interactivesys.png" >
 </div>
+<div class="col three caption">
+    Interactive measurement with C++
+</div>
+We added linear interpolations between neighboring frames to support precise control for an overhead crane system while using less hard thresholds.
+Finally, one paper was published and a Chinese patent of invention was granted on the basis of the above research.
+<div id="disqus_thread"></div>
