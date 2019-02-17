@@ -1,0 +1,2 @@
+convert -resize “500x300” -strip -quality 75% input.jpg output.jpg   error 3210
+//调整大小，-strip剥离无用拍摄日期曝光等头文件信息 -quality降质
