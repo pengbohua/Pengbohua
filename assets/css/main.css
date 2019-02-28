@@ -393,7 +393,7 @@ footer a:hover { color: #B509AC; }
 .project .thumbnail a span p { color: #e8e8e8; }
 .project .thumbnail a:hover span { display: block; }
 
-.profile img { box-shadow: 0 0 5px #828282; width: 100%; }
+.profile img { box-shadow: 0 0 5px #828282; width: 100%; margin: 5px; }
 
 .address { font-family: monospace; }
 .address p { margin: 0; }
@@ -482,7 +482,7 @@ figcaption { font-size: 0.875rem; }
 
 .img_row { height: auto; width: 100%; overflow: hidden; box-sizing: border-box; }
 
-.img_pro, .img_pro3 { width: auto; text-align: center; margin: 3px; box-sizing: border-box; }
+.img_pro, .img_pro3 { width: 33%; text-align: center; margin: 3px; box-sizing: border-box; }
 
 .img_pro3 { width: 200px; height: 200px; }
 
