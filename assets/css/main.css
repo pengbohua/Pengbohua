@@ -482,7 +482,7 @@ figcaption { font-size: 0.875rem; }
 
 .img_row { height: auto; width: 100%; overflow: hidden; box-sizing: border-box; }
 
-.img_pro, .img_pro3 { width: 33%; text-align: center; margin: 3px; box-sizing: border-box; }
+.img_pro, .img_pro3 { width: auto; height: auto; text-align: center; margin: 3px; box-sizing: border-box; }
 
 .img_pro3 { width: 200px; height: 200px; }
 
