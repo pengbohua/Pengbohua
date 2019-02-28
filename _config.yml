@@ -8,8 +8,10 @@ description: > # this means to ignore newlines until "url:"
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: "https://pengbohua.github.io" # the base hostname & protocol for your site
-baseurl: /BohuaPeng # the subpath of your site, e.g. /blog/
+
+
+url: # the base hostname & protocol for your site
+baseurl: "/Pengbohua" # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------

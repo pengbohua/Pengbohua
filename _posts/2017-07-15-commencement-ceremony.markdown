@@ -5,7 +5,7 @@ date: 2017-07-15 05:00:00
 description: an example of a blog post with some math
 comments: true
 ---
-Today we are going to get kicked out of here because of graduating. I really cherish the knowledge, experience and friendship I got in my college. I think the most important things I learned during these years include：
+Today I am going to get kicked out of here because of graduating. I really cherish the knowledge, expertise and friendships I got in my college. I think the most important things I learned during these years include：
 
 <ul>
     <li>Ideas don't come out fully formed. They only become clear as you work on them. You just have to get started </li>
@@ -20,7 +20,7 @@ Today we are going to get kicked out of here because of graduating. I really che
 <div class="col three caption">
     Ocean and ships
 </div>
-As luck would have it, I was one of the few university students who had experience sailing on a armed cruising ship. I really enjoyed my time on the sea!
+As luck would have it, I am one of the few university students who have experienced sailing on a armed cruising ship. I really enjoyed my time on the sea!
 <div class="img_row">
     <img  src="{{ site.baseurl }}/assets/img/cap.png">
 </div>

@@ -11,7 +11,7 @@ With Zigbee wireless nodes supported by TI Co. and some cheap sensors including 
 
 
 <div class="img_pro">
-   <img  src="{{ site.baseurl }}/assets/img/node.png" alt="node"> &nbsp; &nbsp;
+   <img  src="{{ site.baseurl }}/assets/img/node.png" alt="node"> &nbsp;&nbsp;
    <img  src="{{ site.baseurl }}/assets/img/project3.png" alt="wireless smart car"> &nbsp; &nbsp;
 </div>
 <div class="col three caption">

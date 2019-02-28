@@ -18,6 +18,8 @@ figcaption {
 }
 .img_pro {
     width: auto;
+    height: auto;
+    //@extend .img_row;
     //vertical-align: middle;
     text-align: center;
     margin:3px;
@@ -27,7 +29,7 @@ figcaption {
   @extend .img_pro;
   //padding: 0px 50px;//notuseful,because this is not a table td
   width: 200px;
-  height: 200px; 
+  height: 200px;
 }
 .col {
     width: 100%;
