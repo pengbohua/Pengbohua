@@ -1,6 +1,1 @@
-Just to remind myself
-For every update, run this cmd, do NOT clear the path 'CNAME' and 'git'.
-```
-find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
-```
-
+[![Pengbohua's GitHub stats](https://github-readme-stats.vercel.app/api?username=pengbohua)](https://github.com/pengbohua/github-readme-stats)
